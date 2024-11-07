@@ -66,6 +66,7 @@ class Online {
             .sAdd(key, id)
             .expire(key, ttl)
             .exec();
+        return key;
     };
 
     /**
@@ -77,9 +78,9 @@ class Online {
 
     async last(n) {
         const min = new Date().getMinutes();
-        const start = min - n;
+        let start = min - n;
         if (start < 0) start = 60 + start;
-        debug('active %s..%s', start, min);
+        debug('active betwwen minute %s to %s', start, min);
         const keys = this.#keyRange(start, min);
         return await this.db.sUnion(keys);
     };

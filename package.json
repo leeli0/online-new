@@ -1,11 +1,11 @@
 {
   "name": "online-new",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Track online user activity with redis.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha index.test.js"
   },
   "keywords": [
     "online",
@@ -14,11 +14,16 @@
   "author": "Lee Li",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.1",
     "redis": "^4.7.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/leeli0/online-new.git"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "debug": "^4.3.7",
+    "mocha": "^10.8.2",
+    "sinon": "^19.0.2"
   }
 }

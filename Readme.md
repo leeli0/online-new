@@ -1,4 +1,4 @@
-Original [**online** package](https://www.npmjs.com/package/online).
+Original [**online** package](https://www.npmjs.com/package/online). [MIT License](https://github.com/leeli0/online-new/blob/main/LICENSE)
 
 Track online user activity with redis.
 
