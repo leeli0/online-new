@@ -1,0 +1,20 @@
+{
+  "name": "online-new",
+  "version": "0.0.2",
+  "description": "Track online user activity with redis.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "online",
+    "redis"
+  ],
+  "author": "Lee Li",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "redis": "^4.7.0"
+  }
+}
