@@ -1,6 +1,6 @@
 {
   "name": "online-new",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Track online user activity with redis.",
   "main": "index.js",
   "type": "commonjs",
@@ -14,6 +14,7 @@
   "author": "Lee Li",
   "license": "MIT",
   "dependencies": {
+    "debug": "^4.3.7",
     "redis": "^4.7.0"
   },
   "repository": {
@@ -22,7 +23,6 @@
   },
   "devDependencies": {
     "chai": "^5.1.2",
-    "debug": "^4.3.7",
     "mocha": "^10.8.2",
     "sinon": "^19.0.2"
   }
