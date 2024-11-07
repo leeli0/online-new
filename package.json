@@ -1,6 +1,6 @@
 {
   "name": "online-new",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Track online user activity with redis.",
   "main": "index.js",
   "type": "commonjs",
@@ -12,7 +12,7 @@
     "redis"
   ],
   "author": "Lee Li",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.21.1",
     "redis": "^4.7.0"
