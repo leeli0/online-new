@@ -1,5 +1,4 @@
-import createDebug  from 'debug';
-const debug = createDebug('online-new');
+const debug = require('debug')('online-new');
 
 /**
  * Create a new `Online` instance.
@@ -10,7 +9,7 @@ const debug = createDebug('online-new');
  * @api public
  */
 
-export default function (client, options) {
+module.exports = function (client, options) {
     return new Online(client, options);
 };
 
