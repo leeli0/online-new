@@ -1,6 +1,6 @@
 {
   "name": "online-new",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Track online user activity with redis.",
   "main": "index.js",
   "type": "commonjs",
